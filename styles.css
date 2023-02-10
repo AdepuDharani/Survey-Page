@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+label, p{
+  display: block;
+}
+body{
+   background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(13, 13, 20, 0.8)), url("https://www.voxco.com/wp-content/uploads/2021/04/students-feedback-survey-cvr.jpg");
+     background-attachment: fixed; background-repeat: no-repeat;
+   background-size: cover;
+  color: #F1F6F5;
+}
+
+.menu{
+padding: 50px 10px;
+font-family: 'Montserrat', sans-serif;
+}
+.header{
+ text-align: center;
+ font-size: 1.2rem;
+ line-height: 1.5;
+margin-bottom: 30px;
+}
+#survey-form{
+background-color: rgba(50, 70, 90, 0.9);
+  width: 50%;
+  margin: auto;
+  padding: 50px 50px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+.form-opts{
+  width: 100%;
+  padding: 15px 0;
+}
+input, select, textarea{
+  width: 100%;
+  margin: 8px 0 3px 0;
+  padding: 9px;
+border-radius: 3px;
+  border: none;
+font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+p{
+  margin: 0 0 8px 0;
+}
+/*for input buttuons and label text to appear on same line give input a class of inline in html and Select only the .inline elements, and give them width of unset. This will remove the earlier rule which set all the input elements to width: 100% */
+.inline{
+  width: unset;
+margin: 5px 0.5em 5px 0;
+vertical-align: -0.1em;
+min-width: 1.0rem;
+min-height: 1.0rem;
+}
+#submit{
+  font-size: 1rem;
+  background: #5687a2;
+color: #F1F6F5;
+}
+
+#submit:hover{
+  background: #6096B4;
+}
